@@ -80,3 +80,20 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 58.58300018310547
+- Name: New_TextBox1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: New_TextBox1
+    Id: g=6c9c7d6a4717dee259792be2d93c9545
+    Supertype: TextBox
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"text"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
